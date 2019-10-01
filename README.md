@@ -65,5 +65,5 @@ and not tying shred documents to people but the org itself
 * Train everyone to be a leader
 
 Feel free to submit PRs if you think there are items missing in this checklist. If you need help implementing any of the
- levels in your organization, you can reach out to me through my website at [www.mehdi.tech](https://mehdi.tech)
+ levels in your organization, you can reach out to me through my website at [www.mehdi.tech](https://www.mehdi.tech)
 
