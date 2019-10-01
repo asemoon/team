@@ -22,6 +22,7 @@ viable products and validating their proof of concept fall into this level.
 * Structured goal setting that drives what is built by developers: alignment from exec -> product -> development
 * developers can reproduce bugs and test everything in their local environments during development
 * Definition of done for a feature: one word. Impact! There is ownership of the feature all the way to production
+* Negotiate with the product team constantly
 ## Level 2
 * Product team always ensures there is high priority work for engineers to do
 * Processes are defined in a way that people are not blocked on each other too often. 
@@ -29,20 +30,20 @@ be very attentive to the word "blocked" and resolve it immediately
 * Logging application output and developers have access to logs in all environments
 * environments are isolated
 * production bugs triage: low priority bugs vs high priority ones
-* unify design systems: having style guides
-* Educate engineers to be product-oriented rather than purely thinking technical
-* Develop with SEO in mind
-* Develop with mobile-first mind set
 * Ensure developers are happy and appreciated by having retros
-* CI/CD/Zero downtime deployments
-* People knowing the big picture
+* Engineers knowing the big picture
 * Prioritization model: you know what to work on
-* Test plan in place and test management in place
-* Negotiate with the product team constantly
 * Get architectural design buy in before implementation
 * Having a systematic way of communicating what is going to be built long term and short term and communicate internally
  and externally what is being released.  
 ## Level 3
+* CI/CD/Zero downtime deployments
+* unify design systems: having style guides
+* Develop with SEO in mind
+* Develop with mobile-first mind set
+* Test plan in place and test management in place
+* Educate engineers to be product-oriented rather than purely thinking technical
+## Level 4
 * maximize code reusability strategy
 * documentation of the features systematically
 * Constantly asking our self this question: Are we automating anything that can be automated?
@@ -53,7 +54,7 @@ be very attentive to the word "blocked" and resolve it immediately
 and not tying shred documents to people but the org itself
 * There is a structure in place for tech guys and a systematic way for people to grow
 * common data exposure protocol
-## Level 4
+## Level 5
 * Monitoring performance and find what's slowing down on both the front-end and the back-end
 * Monitoring service health to be proactive instead of reactive when problems arise
 * Having a systematic way to monitor security and develop with security in mind
