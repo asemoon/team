@@ -18,44 +18,42 @@ This level is required for every tech company to be functional at the bare level
 viable products and validating their proof of concept fall into this level.
 * Using version control systems and proper branching and code merging model
 * Using a issue tracking system
-* Structured goal setting that drives what is built by developers
+* Use a well-known software development methodology 
+* Structured goal setting that drives what is built by developers: alignment from exec -> product -> development
 * developers can reproduce bugs and test everything in their local environments during development
-* Definition of done for a feature: one word. Impact!
+* Definition of done for a feature: one word. Impact! There is ownership of the feature all the way to production
 ## Level 2
 * Product team always ensures there is high priority work for engineers to do
-* Processes are defined in a way that people are not blocked on each other too often
-* Constantly asking our self this question: Are we automating anything that can be automated?
-* developers have access to logs in all environments
+* Processes are defined in a way that people are not blocked on each other too often. 
+be very attentive to the word "blocked" and resolve it immediately
+* Logging application output and developers have access to logs in all environments
 * environments are isolated
-* there is ownership of the feature all the way to production
-* unit tests(mocking things that need to be mocked), integration tests, end 2 end tests automated
 * production bugs triage: low priority bugs vs high priority ones
-* be very attentive to the word "blocked" and resolve it immediately
-* documentation of the features systematically
-* maximize code reusability strategy
-* unify design systems, having style guides
-* streamline deployments (Continuous software delivery)
-* alignment from exec -> product -> development
+* unify design systems: having style guides
 * Educate engineers to be product-oriented rather than purely thinking technical
 * Develop with SEO in mind
+* Develop with mobile-first mind set
 * Ensure developers are happy and appreciated by having retros
 * CI/CD/Zero downtime deployments
-* Logging application output
 * People knowing the big picture
 * Prioritization model: you know what to work on
-* post-mortems when things go wrong
-* common data exposure protocol
-* Have a systematic way to handle escalations and close the loop with support and non-tech stake holders
 * Test plan in place and test management in place
 * Negotiate with the product team constantly
-* There is a structure in place for tech guys and a systematic way for people to grow
-* There is a systematic way of training and onboarding in place for new hires, There is onboarding/offboarding strategy 
-and not tying shred documents to people but the org itself
-* Develop with mobile-first mind set
 * Get architectural design buy in before implementation
 * Having a systematic way of communicating what is going to be built long term and short term and communicate internally
  and externally what is being released.  
 ## Level 3
+* maximize code reusability strategy
+* documentation of the features systematically
+* Constantly asking our self this question: Are we automating anything that can be automated?
+* Unit tests(mocking things that need to be mocked), integration tests, end 2 end tests automated
+* Have a systematic way to handle escalations and close the loop with support and non-tech stake holders
+* post-mortems when things go wrong
+* There is a systematic way of training and onboarding in place for new hires, There is onboarding/offboarding strategy 
+and not tying shred documents to people but the org itself
+* There is a structure in place for tech guys and a systematic way for people to grow
+* common data exposure protocol
+## Level 4
 * Monitoring performance and find what's slowing down on both the front-end and the back-end
 * Monitoring service health to be proactive instead of reactive when problems arise
 * Having a systematic way to monitor security and develop with security in mind
