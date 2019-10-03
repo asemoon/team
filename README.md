@@ -34,21 +34,34 @@ lifecycle.
 * Using version control systems, proper branching and code merging model that works for your team resulting in fast code
 integration.
 * Using an effective communication mechanism such as Slack.
-* Developers can reproduce bugs and test everything in their development environments
+* Developers can reproduce bugs and test everything in their development environments.
 ## Level 2
-* Everything mentioned in level 1 is practiced
-* Prioritization model: you know what to work on
-* Product team always ensures there is high priority work for engineers to do
-* Engineers knowing the big picture
-* Processes are defined in a way that people are not blocked on each other too often. 
-be very attentive to the word "blocked" and resolve it immediately
-* production bugs triage: low priority bugs vs high priority ones
-* Ensure developers are happy and appreciated by having retros
-* Get architectural design buy in before implementation
-* Having a systematic way of communicating what is going to be built long term and short term and communicate internally
- and externally what is being released.  
-* environments are isolated
-* Logging application output and developers have access to logs in all environments 
+* Everything mentioned in level 1 is practiced.
+* A prioritization model is in place: the engineering team is always working on what matters the most. [RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/) 
+is a very effective prioritization model. Also, product team always ensures engineers do not run out of high priority
+work.
+* Engineers understand the big picture: technical individual contributors can sometimes get into too much implementation
+detail of what they are working on. This results in them losing touch with the big picture and the overall intended value being 
+delivered. To help with this, we always want to ensure engineers follow the "working backwards" method. i.e. always asking
+ourselves "imagine we are done and this feature is live! How would the user use the output of this work and is it 
+creating the value the user is looking for?"
+* Processes are defined in a way that people are not blocked on each other as much as feasible. Leaders are very 
+attentive to the the word "blocked", strive to resolve the situation immediately and place processes in place to minimize
+the amount of blockage occurring from the same root cause.
+* Production bugs triage process is in place: there is a systematic approach in place to deal with defects discovered in
+the production environment and escalate them as necessary. 
+* Genuine care for developer happiness: ensure developers are heard, they are appreciated, their concerns are addressed,
+and there is a clear career growth plan laid out for them by retrospective and 1-on-1 meetings. 
+* Engineers get architectural design buy-in before implementation: engineers talk to as many colleagues as they can about
+how they are going to address a problem before actual implementation. This is to ensure the solution is the most optimal 
+and follows the best engineering practices.
+* Having a systematic way of communicating internally and external regarding what is going to be built long term and 
+short term.
+* Application environments are isolated: Modern software systems can consist of many different services. Any instance of
+any service running in an environment should be completely isolated from services running on a different environment
+(having a test, staging, and a production environment is very common).
+* Log application output and and expose them to the team: engineers need to have access to application logs for
+debugging purposes. Ideally, logs for all the environments are available through a logging aggregator. 
 ## Level 3
 * Everything mentioned in level 2 is practiced
 * Build out technology radar
