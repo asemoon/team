@@ -12,18 +12,31 @@ In reality, tech companies are in the constant battle of time, resources, and de
 team along with tech leadership decides what needs to be done to achieve aforementioned goals. Companies at different
 levels of maturity need to be equipped with right technologies and processes to be considered high performing. 
 
-Here is the checklist for every level of maturity of any tech company.
+Here is the checklist for every level of maturity of any tech company. The higher level a tech company is on this scale,
+the more it's considered a high performing tech organization.
+
 ## Level 1
-This level is required for every tech company to be functional at the bare level. early stage startups building minimal
-viable products and validating their proof of concept fall into this level.
-* Structured goal setting that drives what is built by developers: alignment from exec -> product -> development
-* Use a software development methodology that works for your team
-* Definition of done for a feature: one word. Impact! There is ownership of the feature all the way to production
-* Negotiate with the product team constantly
-* Using a issue tracking system 
-* Using version control systems and proper branching and code merging model
-* developers can reproduce bugs and test everything in their local environments during development
+* Structured goal setting is in place: Using a systematic way of setting goals that drives what is built by developers.
+ This brings alignment to all functions of an organization and helps everyone have focus and ensure individual 
+ contributors are working on the right thing. Let's face it, building and shipping software is very expensive! therefore,
+ building the wrong products or features can really hurt a tech company. [OKRs](https://www.goodreads.com/book/show/39286958-measure-what-matters) 
+ are a very handy tool for structured goal setting.
+* Use a software development methodology that works for your team.
+* Extreme ownership in the engineering team: once developers are code complete, they are not done! They are trained to 
+have this mindset that they are done once what they are working on is in production creating value for end-users.
+* Continuous negotiation with the product team: continuous negotiation with the product team: There is a constant line 
+of communication open between engineers and product managers to bring down the feature scope/complexity while not 
+drastically minimize the value delivered to the user. The result of this practice is to save time and development costs
+while still delivering great customer experience.  
+* Using an issue & project tracking software system: Platforms such as Jira enable you to implement the software 
+development methodology you are using and ensure any engineering work is being tracked through the entire development
+lifecycle.    
+* Using version control systems, proper branching and code merging model that works for your team resulting in fast code
+integration.
+* Using an effective communication mechanism such as Slack.
+* Developers can reproduce bugs and test everything in their development environments
 ## Level 2
+* Everything mentioned in level 1 is practiced
 * Prioritization model: you know what to work on
 * Product team always ensures there is high priority work for engineers to do
 * Engineers knowing the big picture
@@ -35,8 +48,9 @@ be very attentive to the word "blocked" and resolve it immediately
 * Having a systematic way of communicating what is going to be built long term and short term and communicate internally
  and externally what is being released.  
 * environments are isolated
-* Logging application output and developers have access to logs in all environments
+* Logging application output and developers have access to logs in all environments 
 ## Level 3
+* Everything mentioned in level 2 is practiced
 * Build out technology radar
 * Unify design systems: having style guides
 * Educate engineers to be product-oriented rather than purely thinking technical
@@ -46,6 +60,7 @@ be very attentive to the word "blocked" and resolve it immediately
 * CI/CD/Zero downtime deployments
 * Start gathering data about users and how they are using your software
 ## Level 4
+* Everything mentioned in level 3 is practiced
 * Maximize code reusability strategy
 * Documentation of the features systematically
 * Constantly asking our self this question: Are we automating anything that can be automated?
@@ -58,6 +73,7 @@ and not tying shred documents to people but the org itself
 * common data exposure protocol
 * Feature toggle strategy
 ## Level 5
+* Everything mentioned in level 4 is practiced
 * Monitoring performance and find what's slowing down on both the front-end and the back-end
 * Monitoring service health to be proactive instead of reactive when problems arise
 * Having a systematic way to monitor security and develop with security in mind
