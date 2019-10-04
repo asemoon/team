@@ -41,9 +41,9 @@ integration.
 is a very effective prioritization model. Also, product team always ensures engineers do not run out of high priority
 work.
 * Engineers understand the big picture: technical individual contributors can sometimes get into too much implementation
-detail of what they are working on. This results in them losing touch with the big picture and the overall intended value being 
-delivered. To help with this, we always want to ensure engineers follow the "working backwards" method. i.e. always asking
-ourselves "imagine we are done and this feature is live! How would the user use the output of this work and is it 
+detail of what they are working on. This results in them losing touch with the big picture and the overall intended value
+being delivered. To help with this, we always want to ensure engineers follow the "working backwards" method. i.e. always
+asking ourselves "imagine we are done and this feature is live! How would the user use the output of this work and is it 
 creating the value the user is looking for?"
 * Processes are defined in a way that people are not blocked on each other as much as feasible. Leaders are very 
 attentive to the the word "blocked", strive to resolve the situation immediately and place processes in place to minimize
@@ -64,14 +64,19 @@ any service running in an environment should be completely isolated from service
 debugging purposes. Ideally, logs for all the environments are available through a logging aggregator. 
 ## Level 3
 * Everything mentioned in level 2 is practiced
-* Build out technology radar
-* Unify design systems: having style guides
-* Educate engineers to be product-oriented rather than purely thinking technical
-* Test plan in place and test management in place
-* Develop with SEO in mind
-* Develop with mobile-first mind set
-* CI/CD/Zero downtime deployments
-* Start gathering data about users and how they are using your software
+* Unify design systems: When building new features, engineers at don't have to think about how the general UI elements 
+look like as they use a repository commonly called style guide. 
+* Educate engineers to be product-oriented: Engineers building out features are trained to have a passion for the product
+as a whole. This helps them make better decisions during development and make the right comprises.
+* Build out technology radar: Clearly communicate what tools, frameworks, and languages will be used in the org. 
+[Tech Radar](https://www.thoughtworks.com/radar) can be a handy tool regarding this matter. This allows a cohesive 
+development strategy and more code reusability resulting in faster product delivery. 
+* Develop with SEO in mind: effective tech organizations do not let SEO be afterthought. They are always up-to-date with
+ the latest SEO trends and ensure engineers follow them during feature development.  
+* Develop with mobile-first mind set: where applicable, all the experiences delivered to the user are mobile-friendly.
+* Know your users: start gathering data on how users are using your software while respecting their privacy.
+* CI/CD: there is a clear operational strategy for continuous integration and continuous delivery of the software. 
+* Zero downtime deployments: when production deployments take place, there is no downtime for current users.
 ## Level 4
 * Everything mentioned in level 3 is practiced
 * Maximize code reusability strategy
