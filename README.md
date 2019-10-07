@@ -96,20 +96,24 @@ using a company identity (e.g. email) and not a specific person's identity. 
 maintainability.
 * Common data exposure mechanism: if microservices are being used in the tech infrastructure, there is a strategy in 
 place to expose all the data endpoints using the same consistent mechanism as much as possible (e.g. consistently use 
-GraphQL or RESTful APIs)
+GraphQL or RESTful APIs).
 * Feature toggle strategy is in place: there is a way to incrementally and continuously release new features to 
 customers.
 ## Level 5
 * Everything mentioned in level 4 is practiced.
-* Monitoring performance and find what's slowing down on both the front-end and the back-end
-* Monitoring service health to be proactive instead of reactive when problems arise
-* Having a systematic way to monitor security and develop with security in mind
-* People think about cost of service vs ROI and scalability when choosing a technology to use
-* Load testing in place
-* Design with redundancy in mind
-* User activity tracking system
-* A/B testing strategy
-* Train everyone to be a leader
+* Train everyone to be a leader! As the organization grows, it's crucial to build leadership skills in as many people as
+possible. This sense of ownership helps the company to succeed in the long run.
+* Monitoring performance and find what's slowing down the system on both the front-end(e.g. using Lighthouse) and the 
+back-end(e.g. using APMs). Monitoring service health to be proactive instead of reactive when problems arise 
+(i.e. strategy in place to find issues before users find them). There should also be load testing involved as part of 
+the monitoring system. 
+* Having a systematic way to monitor security and develop with security in mind.
+* Engineers and leaders consider the financial cost of any third party service vs ROI and scalability when choosing a 
+technology to use. 
+* If the organization is involved in building software systems that include different levels of users, there needs to be
+ a system in place to let users know, who did what action at what time (i.e. have user activity tracking system in place)
+* A/B testing strategy in place: there is a way for the product team to deliver different experiences to different users
+where applicable. This is to learn more about what users want, what works for the product, and continuously build the right features.  
 
 Feel free to submit PRs if you think there are items missing in this checklist. If you need help implementing any of the
  levels in your organization, you can reach out to me through my website at [www.mehdi.tech](https://www.mehdi.tech)
