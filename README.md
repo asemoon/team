@@ -24,7 +24,7 @@ the more it's considered a high performing tech organization.
 * Use a software development methodology that works for your team.
 * Extreme ownership in the engineering team: once developers are code complete, they are not done! They are trained to 
 have this mindset that they are done once what they are working on is in production creating value for end-users.
-* Continuous negotiation with the product team: continuous negotiation with the product team: There is a constant line 
+* Continuous negotiation with the product team: There is a constant line 
 of communication open between engineers and product managers to bring down the feature scope/complexity while not 
 drastically minimize the value delivered to the user. The result of this practice is to save time and development costs
 while still delivering great customer experience.  
@@ -48,8 +48,6 @@ creating the value the user is looking for?"
 * Processes are defined in a way that people are not blocked on each other as much as feasible. Leaders are very 
 attentive to the the word "blocked", strive to resolve the situation immediately and place processes in place to minimize
 the amount of blockage occurring from the same root cause.
-* Production bugs triage process is in place: there is a systematic approach in place to deal with defects discovered in
-the production environment and escalate them as necessary. 
 * Genuine care for developer happiness: ensure developers are heard, they are appreciated, their concerns are addressed,
 and there is a clear career growth plan laid out for them by retrospective and 1-on-1 meetings. 
 * Engineers get architectural design buy-in before implementation: engineers talk to as many colleagues as they can about
@@ -63,7 +61,7 @@ any service running in an environment should be completely isolated from service
 * Log application output and and expose them to the team: engineers need to have access to application logs for
 debugging purposes. Ideally, logs for all the environments are available through a logging aggregator. 
 ## Level 3
-* Everything mentioned in level 2 is practiced
+* Everything mentioned in level 2 is practiced.
 * Unify design systems: When building new features, engineers at don't have to think about how the general UI elements 
 look like as they use a repository commonly called style guide. 
 * Educate engineers to be product-oriented: Engineers building out features are trained to have a passion for the product
