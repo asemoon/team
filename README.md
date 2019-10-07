@@ -78,20 +78,29 @@ development strategy and more code reusability resulting in faster product deliv
 * CI/CD: there is a clear operational strategy for continuous integration and continuous delivery of the software. 
 * Zero downtime deployments: when production deployments take place, there is no downtime for current users.
 ## Level 4
-* Everything mentioned in level 3 is practiced
-* Maximize code reusability strategy
-* Documentation of the features systematically
-* Constantly asking our self this question: Are we automating anything that can be automated?
-* Unit tests(mocking things that need to be mocked), integration tests, end 2 end tests automated
-* Have a systematic way to handle escalations and close the loop with support and non-tech stake holders
-* Post-mortems when things go wrong
-* There is a systematic way of training and onboarding in place for new hires, There is onboarding/offboarding strategy 
-and not tying shred documents to people but the org itself
-* There is a structure in place for tech guys and a systematic way for people to grow
-* common data exposure protocol
-* Feature toggle strategy
+* Everything mentioned in level 3 is practiced.
+* Maximize code reusability: for all the back-end, front-end, and infrastructure code there is a strategy in 
+place to maximize code reusability across projects.  
+* Systematic documentation in place: there is a consistent way of documenting any transferable knowledge across the tech
+ organization. The company culture entices engineers to keep the documentation updated as things change.
+* Constantly asking and addressing this question: are we automating anything that can be automated?
+* Have a systematic way to handle escalations when the software is not working as expected in the production environment
+and close the loop with support and non-tech stake holders when issues are scheduled to be addressed. 
+* Document production issues caused by human error as post-mortems. This is a mechanism to continuously improve the tech
+organization.
+* There is a systematic way of training and onboarding in place for new hires. There is also protocol in place to 
+knowledge transfer and revoke access rights when people decide to leave the company. Services and tools are registered
+using a company identity (e.g. email) and not a specific person's identity. 
+* There is a structure in place for engineers to grow in their career.
+* Unit tests, integration tests, and end-to-end tests are in place as much as possible to ensure quality and 
+maintainability.
+* Common data exposure mechanism: if microservices are being used in the tech infrastructure, there is a strategy in 
+place to expose all the data endpoints using the same consistent mechanism as much as possible (e.g. consistently use 
+GraphQL or RESTful APIs)
+* Feature toggle strategy is in place: there is a way to incrementally and continuously release new features to 
+customers.
 ## Level 5
-* Everything mentioned in level 4 is practiced
+* Everything mentioned in level 4 is practiced.
 * Monitoring performance and find what's slowing down on both the front-end and the back-end
 * Monitoring service health to be proactive instead of reactive when problems arise
 * Having a systematic way to monitor security and develop with security in mind
