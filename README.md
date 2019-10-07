@@ -1,5 +1,5 @@
 # Tech Startup Maturity Levels
-A software company is formed to mainly build solutions that a target market has demand for. For a tech company to be 
+A SaaS software company is formed to mainly build solutions that a target market has demand for. For a tech company to be 
 generally successful at what they do, they need to build their software solution in a way that: 
 
 * It continuously delivers value to the end users with best user experience possible.
