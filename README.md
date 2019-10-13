@@ -16,12 +16,12 @@ Here is the checklist for every level of maturity of any tech company. The highe
 the more it's considered a high performing tech organization.
 
 ## Level 1
+* Use a software development methodology that works for your team.
 * Structured goal setting is in place: Using a systematic way of setting goals that drives what is built by developers.
  This brings alignment to all functions of an organization and helps everyone have focus and ensure individual 
  contributors are working on the right thing. Let's face it, building and shipping software is very expensive! therefore,
  building the wrong products or features can really hurt a tech company. [OKRs](https://www.goodreads.com/book/show/39286958-measure-what-matters) 
  are a very handy tool for structured goal setting.
-* Use a software development methodology that works for your team.
 * Extreme ownership in the engineering team: once developers are code complete, they are not done! They are trained to 
 have this mindset that they are done once what they are working on is in production creating value for end-users.
 * Continuous negotiation with the product team: There is a constant line 
@@ -73,7 +73,8 @@ development strategy and more code reusability resulting in faster product deliv
  the latest SEO trends and ensure engineers follow them during feature development.  
 * Develop with mobile-first mind set: where applicable, all the experiences delivered to the user are mobile-friendly.
 * Know your users: start gathering data on how users are using your software while respecting their privacy.
-* CI/CD: there is a clear operational strategy for continuous integration and continuous delivery of the software. 
+* Feature toggle strategy is in place: there is a way to incrementally and continuously release new features to 
+  customers. 
 * Zero downtime deployments: when production deployments take place, there is no downtime for current users.
 ## Level 4
 * Everything mentioned in level 3 is practiced.
@@ -95,8 +96,7 @@ maintainability.
 * Common data exposure mechanism: if microservices are being used in the tech infrastructure, there is a strategy in 
 place to expose all the data endpoints using the same consistent mechanism as much as possible (e.g. consistently use 
 GraphQL or RESTful APIs).
-* Feature toggle strategy is in place: there is a way to incrementally and continuously release new features to 
-customers.
+* CI/CD: there is a clear operational strategy for continuous integration and continuous delivery of the software.
 ## Level 5
 * Everything mentioned in level 4 is practiced.
 * Train everyone to be a leader! As the organization grows, it's crucial to build leadership skills in as many people as
